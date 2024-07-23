@@ -1,0 +1,42 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.input-message{
+  resize: none;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-message:focus{
+  outline: 1px solid #ffffff2e;
+  
+}
+.button-action{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.response{
+  font-weight: bold;
+  text-align: left;
+  white-space: pre-wrap;
+}

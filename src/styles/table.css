@@ -1,0 +1,21 @@
+.table-ouput {
+    border-collapse: collapse;
+    margin: 20px ;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    border: #f5efef 1px solid;
+  }
+
+thead{
+    background-color: #f2f2f2;
+    color: black;
+    font-size: 20px;
+}
+  th, td {
+    
+    padding: 20px;
+    text-align: left;
+    border: 1px solid black;
+  }
+
